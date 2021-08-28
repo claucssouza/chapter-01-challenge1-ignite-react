@@ -34,12 +34,14 @@ export function TaskList() {
   }
 
   function handleToggleTaskCompletion(id: number) {
-    const listTask = tasks.map(task => task.id === id  ? {...task, isComplete: !task.isComplete} : task)
+    const listTask = tasks.map(item => {
+      return item.id === id ? { ...item, isComplete: !item.isComplete } : item
+    })
     setTasks(listTask)
   }
 
   function handleRemoveTask(id: number) {
-    const listTask = tasks.filter(item => item.id !== id )
+    const listTask = tasks.filter(item => item.id !== id)
     setTasks(listTask)
   }
 

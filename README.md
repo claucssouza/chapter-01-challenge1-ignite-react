@@ -6,7 +6,7 @@
 
 ## Sobre
 
-#### Challenge - Adicionar, excluir e validar campo input com as tasks adicionadas.
+#### Challenge - Conceitos React - Adicionar, excluir e validar campo input com as tasks adicionadas.
 ---
 ## Tecnologia
 
